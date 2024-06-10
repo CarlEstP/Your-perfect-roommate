@@ -1,3 +1,5 @@
+# APP El inquilino ideal
+
 Caso práctico que combina data science, análisis de datos y el sector inmobiliario. Se quiere mostrar como usar Data Science para solucionar problemas complejos en un contexto de negocio real.
 
 El caso debe analizar y responder qué compañero resulta idóneo de entre 12000 posibles candidatos según las respuestas dadas a un total de 17 preguntas para compartir un piso con varias habitaciones dónde mínimo alguna de ellas ya está ocupada.
