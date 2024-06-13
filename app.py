@@ -1,7 +1,6 @@
 import streamlit as st
-import pandas as pd
 from logica import inquilinos_compatibles
-from ayudantes import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
+from app_inquilino_ideal.funciones import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
 
 # Configurar la página para utilizar un layout más amplio.
 st.set_page_config(layout="wide")
@@ -9,7 +8,7 @@ st.set_page_config(layout="wide")
 resultado = None
 
 # Mostrar una gran imagen en la parte superior.
-st.image('./Media/ico_text.png', use_column_width=True)
+st.image('./src/ico_text.png', use_column_width=True)
 
 # Insertar un espacio vertical de 60px
 st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
