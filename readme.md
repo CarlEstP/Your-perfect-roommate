@@ -29,7 +29,7 @@ Veremos cómo transformar un desafío del mundo real en una solución práctica 
 
 2 Se accede al archivo de funciones.py para reformatear los identificadores de inquilino introducidos en el formulario
 
-3 Se ejecuta la función de buscar los inquilinos compatibles:
+3 Se ejecuta la función de buscar los inquilinos compatibles (Acceder al jupyter notebook de logica.ipynb para más detalles):
 
 - Se usa la librería OneHotEncoder y se calcula la matriz de similaridad utilizando el punto producto
 - Se define el rango de destino, se encuentra el mínimo y máximo valor y se reescala la matriz
