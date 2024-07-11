@@ -1,6 +1,6 @@
 import streamlit as st
 from logica import inquilinos_compatibles
-from app_inquilino_ideal.funciones import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
+from funciones import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
 
 # Configurar la página para utilizar un layout más amplio.
 st.set_page_config(layout="wide")
