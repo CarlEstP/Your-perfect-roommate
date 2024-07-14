@@ -55,5 +55,3 @@ elif resultado is not None:
         fig_tabla.update_layout(height=380)
 
         st.plotly_chart(fig_tabla, use_container_width=True)
-
-
