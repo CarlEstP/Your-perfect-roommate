@@ -1,0 +1,101 @@
+id_inquilino,variable1,variable2,variable3,variable4,variable5,variable6,variable7,variable8,variable9,variable10,variable11,variable12,variable13,variable14,variable15,variable16,variable17
+1,night,nocturnal,secondary,yes,no,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,reggaeton,no,house,yes
+2,night,nocturnal,secondary,no,no,no,pets allowed,takeout food,no,no,yes,yes,relaxed,reggaeton,yes,house,yes
+3,night,early riser,university,no,no,yes,pets allowed,takeout food,no,no,yes,no,organized,pop,no,house,no
+4,night,nocturnal,university,no,yes,no,pets allowed,takeout food,yes,no,no,yes,relaxed,rock,yes,house,yes
+5,morning,nocturnal,university,yes,no,no,no pets,cooking,no,no,no,no,relaxed,pop,no,house,no
+6,night,early riser,secondary,no,yes,no,pets allowed,cooking,yes,yes,yes,yes,relaxed,classical,yes,going out,yes
+7,morning,early riser,university,yes,no,no,pets allowed,cooking,no,no,no,no,organized,pop,no,house,no
+8,morning,early riser,university,yes,yes,no,no pets,cooking,yes,no,no,yes,organized,rock,no,house,no
+9,morning,nocturnal,university,no,yes,no,pets allowed,cooking,yes,yes,yes,no,relaxed,classical,yes,house,yes
+10,night,early riser,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,organized,pop,yes,going out,yes
+11,morning,nocturnal,university,yes,no,yes,no pets,cooking,no,no,no,yes,organized,pop,no,house,no
+12,morning,nocturnal,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,yes,going out,yes
+13,night,early riser,university,no,yes,no,pets allowed,takeout food,no,yes,yes,yes,relaxed,classical,yes,going out,yes
+14,morning,early riser,primary,yes,no,yes,pets allowed,cooking,yes,no,yes,no,relaxed,rock,no,house,no
+15,night,nocturnal,primary,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,yes,going out,yes
+16,night,early riser,university,yes,no,yes,no pets,cooking,no,no,no,no,organized,rock,no,house,no
+17,morning,early riser,secondary,yes,yes,yes,pets allowed,cooking,no,no,no,yes,organized,pop,no,house,no
+18,night,nocturnal,university,yes,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,rock,yes,house,yes
+19,morning,early riser,university,no,no,no,no pets,cooking,no,no,no,no,relaxed,classical,no,house,no
+20,night,nocturnal,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,yes,house,yes
+21,morning,early riser,primary,yes,no,no,no pets,cooking,yes,no,yes,yes,organized,rock,no,house,no
+22,morning,early riser,university,yes,no,yes,no pets,cooking,yes,yes,no,no,organized,pop,no,house,no
+23,night,early riser,secondary,no,yes,no,pets allowed,takeout food,yes,yes,yes,no,relaxed,pop,yes,going out,yes
+24,morning,early riser,primary,yes,no,yes,no pets,takeout food,no,no,no,no,organized,rock,no,house,no
+25,night,nocturnal,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,no,going out,yes
+26,morning,nocturnal,primary,no,no,yes,no pets,cooking,no,no,no,no,relaxed,pop,no,house,no
+27,night,nocturnal,university,no,yes,yes,pets allowed,takeout food,no,yes,yes,no,organized,classical,yes,going out,yes
+28,night,early riser,secondary,no,no,yes,pets allowed,takeout food,yes,yes,no,yes,relaxed,classical,yes,going out,yes
+29,night,nocturnal,university,no,yes,no,pets allowed,takeout food,no,yes,yes,no,relaxed,classical,yes,house,yes
+30,night,nocturnal,secondary,yes,yes,no,pets allowed,takeout food,yes,yes,no,yes,relaxed,reggaeton,yes,going out,yes
+31,morning,early riser,primary,no,no,yes,pets allowed,cooking,no,yes,yes,no,organized,classical,no,house,no
+32,morning,early riser,university,yes,no,yes,no pets,cooking,no,no,no,no,relaxed,pop,no,house,no
+33,night,nocturnal,secondary,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,reggaeton,yes,house,yes
+34,night,nocturnal,university,no,yes,no,pets allowed,takeout food,no,yes,no,yes,organized,classical,yes,going out,yes
+35,night,early riser,secondary,yes,yes,no,pets allowed,takeout food,yes,no,yes,yes,relaxed,reggaeton,no,going out,yes
+36,morning,early riser,university,no,no,yes,no pets,cooking,yes,no,no,yes,relaxed,pop,yes,house,no
+37,morning,nocturnal,secondary,yes,no,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,pop,yes,house,yes
+38,morning,early riser,university,yes,no,yes,no pets,cooking,no,no,no,no,organized,pop,no,house,no
+39,night,nocturnal,secondary,no,yes,no,pets allowed,takeout food,yes,yes,yes,no,relaxed,reggaeton,yes,going out,yes
+40,morning,early riser,primary,yes,no,yes,no pets,cooking,no,no,no,no,organized,pop,yes,house,no
+41,night,nocturnal,primary,yes,no,yes,no pets,cooking,no,no,no,no,organized,rock,no,house,no
+42,night,early riser,secondary,no,yes,no,pets allowed,cooking,yes,no,yes,no,relaxed,reggaeton,yes,going out,yes
+43,night,nocturnal,university,no,no,no,no pets,takeout food,yes,yes,yes,yes,relaxed,classical,yes,going out,yes
+44,morning,nocturnal,university,no,yes,no,no pets,takeout food,no,yes,yes,yes,relaxed,classical,yes,going out,yes
+45,morning,early riser,university,yes,no,yes,no pets,cooking,no,yes,no,no,organized,classical,no,house,no
+46,night,early riser,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,organized,classical,no,house,yes
+47,morning,nocturnal,primary,yes,no,yes,no pets,cooking,yes,no,no,no,organized,rock,no,house,no
+48,night,nocturnal,primary,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,rock,yes,house,yes
+49,morning,early riser,university,yes,no,no,no pets,cooking,no,no,no,no,organized,pop,no,house,no
+50,night,nocturnal,university,no,yes,no,pets allowed,takeout food,no,yes,yes,yes,organized,classical,yes,going out,yes
+51,morning,early riser,primary,yes,no,yes,pets allowed,cooking,no,yes,yes,yes,organized,rock,no,house,no
+52,morning,early riser,primary,yes,no,yes,pets allowed,cooking,no,yes,no,no,organized,rock,yes,house,no
+53,morning,early riser,university,yes,no,yes,no pets,takeout food,no,no,no,no,organized,pop,no,house,no
+54,night,nocturnal,secondary,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,reggaeton,yes,going out,yes
+55,morning,early riser,university,no,no,no,no pets,cooking,no,no,no,no,organized,pop,no,house,no
+56,night,early riser,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,organized,rock,yes,house,yes
+57,night,early riser,university,yes,no,no,no pets,cooking,no,no,no,no,organized,pop,no,house,no
+58,night,early riser,secondary,no,no,no,pets allowed,cooking,no,yes,yes,no,relaxed,reggaeton,yes,going out,yes
+59,night,early riser,primary,yes,no,no,pets allowed,cooking,no,no,yes,no,relaxed,classical,no,house,no
+60,night,early riser,university,no,yes,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,reggaeton,yes,going out,yes
+61,morning,nocturnal,secondary,yes,no,yes,no pets,cooking,no,yes,no,no,relaxed,pop,no,house,no
+62,morning,nocturnal,university,yes,no,no,no pets,cooking,yes,yes,no,no,organized,classical,no,house,no
+63,night,early riser,secondary,no,no,no,pets allowed,cooking,yes,yes,no,no,relaxed,reggaeton,yes,going out,yes
+64,morning,early riser,primary,yes,no,yes,no pets,cooking,no,no,yes,yes,organized,rock,no,house,no
+65,night,early riser,secondary,yes,no,yes,pets allowed,cooking,no,yes,yes,yes,organized,pop,yes,house,yes
+66,night,nocturnal,university,no,no,no,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,yes,house,yes
+67,night,nocturnal,primary,no,no,no,no pets,cooking,no,no,no,no,relaxed,pop,no,house,no
+68,morning,early riser,university,no,no,yes,no pets,cooking,yes,yes,no,yes,organized,rock,no,house,no
+69,night,nocturnal,university,no,yes,no,pets allowed,takeout food,yes,no,yes,yes,relaxed,reggaeton,yes,going out,yes
+70,morning,early riser,university,no,no,no,pets allowed,cooking,yes,yes,no,yes,organized,rock,no,house,no
+71,morning,nocturnal,primary,no,no,yes,pets allowed,cooking,yes,no,yes,no,organized,pop,no,house,no
+72,night,early riser,university,no,no,no,pets allowed,cooking,no,yes,yes,no,organized,rock,yes,house,yes
+73,night,nocturnal,secondary,no,no,yes,pets allowed,takeout food,no,no,yes,no,relaxed,pop,yes,going out,yes
+74,night,nocturnal,university,no,no,no,pets allowed,takeout food,no,yes,no,yes,relaxed,classical,yes,house,yes
+75,morning,early riser,university,yes,no,no,no pets,cooking,yes,no,no,no,relaxed,rock,no,house,no
+76,night,early riser,university,no,yes,yes,pets allowed,takeout food,yes,yes,yes,yes,relaxed,classical,yes,house,yes
+77,morning,nocturnal,university,no,yes,no,pets allowed,takeout food,no,yes,yes,no,organized,classical,no,house,yes
+78,night,early riser,primary,no,no,no,pets allowed,takeout food,no,yes,yes,yes,organized,pop,yes,house,yes
+79,night,nocturnal,primary,no,yes,no,no pets,takeout food,yes,yes,yes,no,relaxed,classical,yes,going out,yes
+80,morning,nocturnal,secondary,no,no,yes,pets allowed,cooking,yes,no,yes,yes,relaxed,pop,yes,house,yes
+81,night,nocturnal,primary,no,yes,no,pets allowed,takeout food,yes,yes,no,yes,relaxed,rock,yes,house,yes
+82,morning,nocturnal,university,yes,yes,no,pets allowed,cooking,no,yes,yes,yes,relaxed,classical,yes,house,yes
+83,morning,nocturnal,university,no,no,no,pets allowed,takeout food,no,yes,yes,yes,organized,pop,no,house,yes
+84,night,nocturnal,primary,no,no,no,no pets,takeout food,yes,yes,yes,yes,relaxed,classical,no,going out,yes
+85,night,early riser,secondary,no,no,no,pets allowed,takeout food,no,no,no,no,relaxed,rock,no,house,no
+86,morning,early riser,primary,no,no,yes,pets allowed,cooking,no,no,no,no,organized,pop,no,house,no
+87,night,early riser,secondary,no,no,no,pets allowed,takeout food,no,yes,no,yes,relaxed,reggaeton,yes,going out,yes
+88,morning,nocturnal,university,no,yes,no,no pets,takeout food,no,yes,yes,no,organized,rock,no,house,yes
+89,night,early riser,primary,yes,no,no,pets allowed,cooking,yes,no,yes,yes,organized,rock,no,house,no
+90,morning,early riser,primary,yes,no,no,pets allowed,cooking,no,no,no,no,relaxed,pop,no,house,no
+91,night,nocturnal,university,no,no,no,pets allowed,cooking,no,yes,no,yes,relaxed,classical,yes,going out,yes
+92,morning,early riser,secondary,yes,no,no,pets allowed,cooking,no,yes,no,no,relaxed,classical,no,house,no
+93,morning,early riser,university,yes,no,no,pets allowed,cooking,no,no,no,no,organized,pop,no,house,no
+94,morning,early riser,secondary,yes,no,no,pets allowed,cooking,no,yes,no,no,relaxed,pop,no,house,no
+95,night,nocturnal,primary,no,no,no,pets allowed,takeout food,no,yes,yes,no,relaxed,classical,no,going out,yes
+96,night,nocturnal,secondary,no,yes,no,pets allowed,takeout food,no,yes,no,yes,relaxed,reggaeton,yes,house,yes
+97,morning,early riser,primary,yes,no,no,no pets,cooking,no,no,no,no,organized,rock,no,house,no
+98,morning,early riser,university,no,no,no,pets allowed,takeout food,no,yes,no,yes,relaxed,classical,yes,going out,yes
+99,morning,early riser,primary,yes,no,yes,pets allowed,cooking,no,no,no,no,organized,rock,no,house,no
+100,night,nocturnal,primary,no,no,no,pets allowed,takeout food,no,yes,no,yes,relaxed,classical,no,house,yes

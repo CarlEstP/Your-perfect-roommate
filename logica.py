@@ -4,12 +4,12 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
 # 2. CARGA DE DATOS
-df = pd.read_csv('dataset_inquilinos.csv', index_col = 'id_inquilino')
+df = pd.read_csv('dataset_inquilinos_100_en.csv', index_col = 'id_inquilino')
 
 df.columns = [
-'horario', 'bioritmo', 'nivel_educativo', 'leer', 'animacion', 
-'cine', 'mascotas', 'cocinar', 'deporte', 'dieta', 'fumador',
-'visitas', 'orden', 'musica_tipo', 'musica_alta', 'plan_perfecto', 'instrumento'
+    'schedule', 'biorhythm', 'educational_level', 'read', 'animation', 
+    'movies', 'pets', 'cook', 'sport', 'diet', 'smoker', 'visitors', 
+    'organized', 'music_genre', 'loud_music', 'perfect_plan', 'instrument'
 ]
 
 # 3. ONE HOT ENCODING
@@ -57,7 +57,7 @@ def inquilinos_compatibles(id_inquilinos, topn):
     # Verificar si todos los ID de inquilinos existen en la matriz de similaridad
     for id_inquilino in id_inquilinos:
         if id_inquilino not in df_similaridad.index:
-            return 'Al menos uno de los inquilinos no encontrado'
+            return 'Host or roommate ID not found. Please use one from range (1-99)'
 
     # Obtener las filas correspondientes a los inquilinos dados
     filas_inquilinos = df_similaridad.loc[id_inquilinos]

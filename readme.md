@@ -1,10 +1,10 @@
-# APP El inquilino ideal
+# APP Web development of 'Your perfect Roommate'
 
-Caso práctico que combina data science, análisis de datos y el sector inmobiliario. Se quiere mostrar como usar Data Science para solucionar problemas complejos en un contexto de negocio real.
+A practical case that combines data science, data analysis, and the real estate sector. The goal is to demonstrate how to use data science to solve complex problems in a real business context.
 
-El caso deberá analizar y responder qué compañero resulta idóneo de entre 12000 posibles candidatos según las respuestas dadas a un total de 17 preguntas para compartir un piso con varias habitaciones dónde mínimo alguna de ellas ya está ocupada.
+The case will analyze and determine which roommate is ideal among 100 possible candidates based on the responses to a total of 17 questions for sharing an apartment with multiple rooms, where at least some of them are already occupied.
 
-Veremos cómo transformar un desafío del mundo real en una solución práctica usando herramientas de Data Science como Python, Pandas, Streamlit y Numpy. Además, se hace uso de Streamlit para crear una aplicación interactiva tras procesar el dataset y extraer la solución con los inputs que el usuario introduzca
+We will see how to transform a real-world challenge into a practical solution using data science tools such as Python, Pandas, Streamlit, and Numpy. Additionally, Streamlit is used to create an interactive application after processing the dataset and extracting the solution based on user inputs.
 
 ## Tecnologías utilizadas
 
@@ -17,24 +17,24 @@ Veremos cómo transformar un desafío del mundo real en una solución práctica 
 - Plotly
 - Streamlit
 
-## Ejemplo de uso
+## Case of use example
 
 ![header_photo](https://github.com/CarlEstP/app_inquilino_ideal/blob/main/src/exa.PNG)
 
-- _Caso práctico adaptado de la propuesta del canal DS4B_ \*
+- _Practical case adapted from the proposal of the DS4B channel_
 
-## Descripción de la lógica de la app
+## Description of the App Logic
 
-1 Arranca la app desde app.py generando el frontend con la ayuda de streamlit
+1. Start the app from app.py, generating the frontend with the help of Streamlit.
 
-2 Se accede al archivo de funciones.py para reformatear los identificadores de inquilino introducidos en el formulario
+2. Access the functions.py file to reformat the tenant identifiers entered in the form.
 
-3 Se ejecuta la función de buscar los inquilinos compatibles (Acceder al jupyter notebook de logica.ipynb para más detalles):
+3. Execute the function to search for compatible roomates (Refer to the Jupyter notebook logica.ipynb for more details):
 
-- Se usa la librería OneHotEncoder y se calcula la matriz de similaridad utilizando el punto producto
-- Se define el rango de destino, se encuentra el mínimo y máximo valor y se reescala la matriz
-- Se crea un nuevo dataframe con Pandas
-- Se buscan los inquilinos compatibles teniendo en cuenta cuántos inquilinos ya residen y cuántos hay que añadir a la vivienda.
-- La función devolverá una lista con los inquilinos compatibles, y los datos de similaridad
+- Use the OneHotEncoder library and calculate the similarity matrix using dot product.
+- Define the target range, find the minimum and maximum values, and rescale the matrix.
+- Create a new dataframe with Pandas.
+- Search for compatible tenants considering how many tenants already reside and how many need to be added to the property.
+- The function will return a list of compatible tenants and their similarity data.
 
-4 Si hay resultado válido se muestra la tabla y el gráfico de compatibilidad
+4. If there is a valid result, display the compatibility table and graph.

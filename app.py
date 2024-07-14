@@ -1,6 +1,6 @@
 import streamlit as st
 from logica import inquilinos_compatibles
-from app_inquilino_ideal.funciones import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
+from functions import generar_grafico_compatibilidad, generar_tabla_compatibilidad, obtener_id_inquilinos
 
 # Configurar la página para utilizar un layout más amplio.
 st.set_page_config(layout="wide")
@@ -15,19 +15,19 @@ st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
 
 # Configurar el sidebar con inputs y un botón.
 with st.sidebar:
-    st.header("¿Quién está viviendo ya en el piso?")
-    inquilino1 = st.text_input("Anfitrión 1")
-    inquilino2 = st.text_input("Anfitrión 2")
-    inquilino3 = st.text_input("Anfitrión 3")
+    st.header("Who is already living in the apartment?")
+    inquilino1 = st.text_input("Host 1")
+    inquilino2 = st.text_input("Host 2")
+    inquilino3 = st.text_input("Host 3")
     
-    num_compañeros = st.text_input("¿Cuántos nuevos compañeros quieres buscar?")
+    num_compañeros = st.text_input("How many new roommates do you want to search for?")
     
-    if st.button('BUSCAR NUEVOS COMPAÑEROS'):
+    if st.button('Find new roommates'):
         # Verifica que el número de compañeros sea un valor válido
         try:
             topn = int(num_compañeros)
         except ValueError:
-            st.error("Por favor, ingresa un número válido para el número de compañeros.")
+            st.error("Please enter a valid number for the number of roommates.")
             topn = None
         
         # Obtener los identificadores de inquilinos utilizando la función
@@ -45,13 +45,15 @@ elif resultado is not None:
     cols = st.columns((1, 2))  # Divide el layout en 2 columnas
     
     with cols[0]:  # Esto hace que el gráfico y su título aparezcan en la primera columna
-        st.write("Nivel de compatibilidad de cada nuevo compañero:")
+        st.write("Compatibility level of each new roommate:")
         fig_grafico = generar_grafico_compatibilidad(resultado[1])
         st.pyplot(fig_grafico)
     
     with cols[1]:  # Esto hace que la tabla y su título aparezcan en la segunda columna
-        st.write("Comparativa entre compañeros:")
+        st.write("Comparison between roommates:")
         fig_tabla = generar_tabla_compatibilidad(resultado)
+        fig_tabla.update_layout(height=380)
+
         st.plotly_chart(fig_tabla, use_container_width=True)
 
 
