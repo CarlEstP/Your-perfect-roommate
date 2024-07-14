@@ -6,7 +6,7 @@ The case will analyze and determine which roommate is ideal among 100 possible c
 
 We will see how to transform a real-world challenge into a practical solution using data science tools such as Python, Pandas, Streamlit, and Numpy. Additionally, Streamlit is used to create an interactive application after processing the dataset and extracting the solution based on user inputs.
 
-## Tecnologías utilizadas
+## Stack used
 
 - Python
 - Pandas
